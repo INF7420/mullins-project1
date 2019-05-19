@@ -10,7 +10,7 @@ Each page will have a similar skeleton of header, navigation bar, and footer. Th
 
 **Navigation bar**: Link to homepage, portfolio, about me, and contact me. Links pop-out on hover. Fixed, top, 100% width.
 
-**Main content**: Brief “about me” paragraph. Then, a few recent photographs I’ve taken.
+**Main content**: Brief “about me” paragraph. Then, a few recent photos I’ve taken.
 
 **Footer**: Text; how to reach me, and a link to send me an email.
 
