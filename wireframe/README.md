@@ -4,7 +4,7 @@ I am making a website that will serve as a personal portfolio for web developmen
 
 ## Wireframes
 Each page will have a similar skeleton of header, navigation bar, and footer. The only thing that will vary from page to page is the main content. This is to create a feel of continuity and allow a relaxing browsing experience.
-*![Wireframe of the Landing Page](wireframes/homepage1.jpg)*
+*![Wireframe of the Landing Page](wireframes\homepage1.jpg)*
 
 **Header**: (Same on all pages) Graphic design of my name that links back to my homepage. Glow upon hover.
 
@@ -14,7 +14,7 @@ Each page will have a similar skeleton of header, navigation bar, and footer. Th
 
 **Footer**: Text; how to reach me, and a link to send me an email.
 
-*![Wireframe of the portfolio page](wireframes/portfolio2.jpg)*
+*![Wireframe of the portfolio page](wireframes\portfolio2.jpg)*
 
 **Header**: Graphic design of my name that links back to my homepage. Glow upon hover.
 
@@ -24,7 +24,7 @@ Each page will have a similar skeleton of header, navigation bar, and footer. Th
 
 **Footer**: Text; how to reach me, and a link to send me an email.
 
-*![Wireframe of the about me page](wireframes/aboutme3.jpg)*
+*![Wireframe of the about me page](wireframes\aboutme3.jpg)*
 
 **Header**: Graphic design of my name that links back to my homepage. Glow upon hover.
 
@@ -34,7 +34,7 @@ Each page will have a similar skeleton of header, navigation bar, and footer. Th
 
 **Footer**: Text; how to reach me, and a link to send me an email.
 
-*![wireframe of contact me page](wireframes/contactme4.jpg)*
+*![wireframe of contact me page](wireframes\contactme4.jpg)*
 
 **Header**: Graphic design of my name that links back to my homepage. Glow upon hover.
 
