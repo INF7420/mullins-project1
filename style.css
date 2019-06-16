@@ -1,0 +1,157 @@
+html {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+head {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    float: center;
+    background-color: whitesmoke;
+}
+
+.header {
+    margin: 1px;
+    padding : 1px;
+    float: center;
+    display: inline;
+}
+
+.main-nav {
+    float: center;
+    display: inline;
+    width: 75%;
+    float: left;
+}
+
+.main-nav a.hover{
+        padding-bottom: 5px;
+}
+
+a {
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: #5C86CC;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    width: 25%;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 8px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #FF9C8C;
+    color: black;
+    font-display: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-kerning: 2em;
+}
+img {
+    max-width: 100%;
+    display: inline;
+    }
+
+main {
+    padding: 1 rem 1 rem 2 rem;
+    background-color: #FF9C8C;
+}
+
+
+#alpha {
+ font-size: 20px;
+}
+
+#form-1 {
+    width: 75%;
+    padding: 12px;
+    border: 10px solid whitesmoke;
+    border-radius: 1px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    background-color: whitesmoke;
+}
+
+text {
+    width: 100%;
+    height: 150px;
+    color: black;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solidwhite;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    resize: none;
+  }
+
+input[type=submit]  {
+    background-color: whitesmoke;
+    color: black;
+    font-size: 2.6em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+  }
+
+input[type=submit]:hover {
+    background-color: pink;
+  }
+
+.button {
+  padding: 20px;
+  background-color: #FF9C8C;
+  transition: transform .1s;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.button:hover {
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1); 
+}
+  
+
+#beta {
+ font-size: 16px;
+ color: black;
+}
+
+#omega 
+}
+
+footer {
+    padding: 1rem;
+    background-color: #597BB3;
+    width: 100%;
+    color black;
+}
+footer p {
+    font-size: 24px;
+    padding: 1px; 
+    margin: 1px;
+    background-color: #597BB3;
+    color: black;
+}
