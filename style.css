@@ -20,15 +20,11 @@ body {
 .header {
     margin: 1px;
     padding : 1px;
-    float: center;
     display: inline;
 }
 
 .main-nav {
-    float: center;
     display: inline;
-    width: 75%;
-    float: left;
 }
 
 .main-nav a.hover{
@@ -130,27 +126,24 @@ input[type=submit]:hover {
 .button:hover {
   -ms-transform: scale(1); /* IE 9 */
   -webkit-transform: scale(1); /* Safari 3-8 */
-  transform: scale(1); 
+  transform: scale(1);
 }
-  
+
 
 #beta {
  font-size: 16px;
  color: black;
 }
 
-#omega 
-}
-
 footer {
     padding: 1rem;
     background-color: #597BB3;
     width: 100%;
-    color black;
+    color: black;
 }
 footer p {
     font-size: 24px;
-    padding: 1px; 
+    padding: 1px;
     margin: 1px;
     background-color: #597BB3;
     color: black;
