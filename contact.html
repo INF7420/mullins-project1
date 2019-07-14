@@ -34,15 +34,17 @@
   <main>
     <div id="form1">
       <h1>Want to share an interesting article or wax poetic about NPR? Tell me more here!</h1>
-      <form  method="POST" action="https://formspree.io/mullinskatielynn@gmail.com" target="_top">
+      <form  method="POST" action="https://formspree.io/mullinskatielynn@gmail.com" target="_top" class="validate">
         <div>
-          <label for="name">Your name:</label><input type="text" id="name" name="contact name">
+          <label for="name">Your name:</label><input type="text" id="name" name="contact name" class="form-input">
         </div>
         <div>
-          <label for="email">Your e-mail address:</label><input type="text" id="email" name="email">
+          <label for="email" >Your e-mail address:</label><input type="email" id="email" class="form-input error" name="_replyto" required="" areai-describedby="error-for-email" class="form-input" required>
+          <div id="error-for-email" class="error-message" style="dispaly: block; visibility: visible;">Please fill out this field</div>
         </div>
         <div>
-          <label for="mesg">Your message:</label><textarea id="mesg" name="mesg"></textarea>
+          <label for="mesg" >Your message:</label><textarea id="mesg" name="mesg" class="form-input" required="" areai-descirbedby="error-for-message"></textarea>
+       <div id="error-for-message" class="error-message" style="display: block; visibility: visible;"> Please fill out this field</div>
         </div>
         <div class="button"> <button type="submit">Submit!</button></div>
        
@@ -57,6 +59,6 @@
       <a href="https://www.linkedin.com/in/mullinskatie" target="_top "><img src="/index/linkedin1.png" width="50px" height="50px"></a>     
       (U ᵕ U❁)
     </footer>
-  <script src="scripts/main.js"></script>
+  <script src="scripts/script.js"></script>
 </body>
 </html>
