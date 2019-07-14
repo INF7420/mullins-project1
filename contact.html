@@ -8,26 +8,33 @@
   <title>Kate Mullins Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
+<!-- header start-->
 <body>
   <header class="header">
-    <nav id="main-menu">
-      <img src="http://placekitten.com/1750/300" alt="cat.jpg">
-    </nav>
-    <nav>
+      <img src="/index/header-welcome.jpg" width="300px" height="95px" class="img-border" alt="selfie with some cacti at the BBAC"></img></a>
+    </header>
+
+    <!-- header end-->
+
+    <!--nav start-->
+    <nav class="main-menu">
       <ul>
-        <li><a href="index.html" alt="This link goes to my homepage.">HOME</a></li>
-        <li><a href="portfolio.html" alt="This link goes to my portfolio composed of pictures.">PORTFOLIO</a></li>
-        <li><a href="about.html" alt="=This link goes to my about me page with text and pictures.">ABOUT ME</a></li>
-        <li><a href="contact.html" alt="This link goes to my contact me page with various email addresses.">CONTACT
-            ME</a></li>
+        <li><a href="index.html" alt="This link goes to my homepage.">✧home✧</a></li>
+        <li><a href="portfolio.html" alt="This link goes to my portfolio composed of pictures.">✧portfolio✧</a></li>
+        <li><a href="about.html" alt="=This link goes to my about me page with text and pictures.">✧about me✧</a></li>
+        <li><a href="contact.html" alt="This link goes to my contact me page with various email addresses."><i>✧contact me✧</i>
+          </a></li>
       </ul>
     </nav>
-  </header>
+
+  <!--nav end-->
+
+
+<!--MAIN CONTENT start-->
   <main>
     <div id="form1">
       <h1>Want to share an interesting article or wax poetic about NPR? Tell me more here!</h1>
-      <form action="/action_page.php" method="post">
+      <form  method="POST" action="https://formspree.io/mullinskatielynn@gmail.com" target="_top">
         <div>
           <label for="name">Your name:</label><input type="text" id="name" name="contact name">
         </div>
@@ -38,15 +45,18 @@
           <label for="mesg">Your message:</label><textarea id="mesg" name="mesg"></textarea>
         </div>
         <div class="button"> <button type="submit">Submit!</button></div>
+       
+        </form>
       </form>
     </div>
   </main>
-
+<!-- main content end-->
   <footer>
-    <a href="mailto:mullinskatielynn@gmail.com?Subject=Hello! " target="_top ">
-    </a><br>
-    <p>Send me an email here: <a href="mailto:ez8414@wayne.edu?Subject=Hello! " target="_top ">Wayne State University</a>
-    </p>
-  </footer>
+      <p>Send me an email here: <a href="mailto:ez8414@wayne.edu?Subject=Hello! " target="_top ">Wayne State</a>   |  <a href="mailto:mullinskatielynn?Subject=Hello! " target="_top ">Personal Email Address</a></p>
+      <a href="https://www.instagram.com/kayelemm" target="_top "><img src="/index/insta1.png" width="50px" height="50px"></a>
+      <a href="https://www.linkedin.com/in/mullinskatie" target="_top "><img src="/index/linkedin1.png" width="50px" height="50px"></a>     
+      (U ᵕ U❁)
+    </footer>
+  <script src="scripts/main.js"></script>
 </body>
 </html>
