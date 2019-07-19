@@ -199,6 +199,8 @@ text {
     font-family: 'Courier New', Courier, monospace;
 }
 
+
+
 /*Contact me page - form, validation, and such*/
 
 input[type=submit]  {
@@ -214,7 +216,7 @@ input[type=submit]  {
   }
 
 input[type=submit]:hover {
-    background-color:whitesmoke;
+    background-color: pink;
   }
 
 .button {
@@ -226,14 +228,8 @@ input[type=submit]:hover {
   margin: 0 auto;
 }
 
-.error {
-    border-color: red;
+.button:hover {
 }
-.error-message {
-    color: red;
-}
-
-/*contact me end*/
 
 footer {
     padding: 1rem;
@@ -241,8 +237,8 @@ footer {
     width: 100%;
     color: black;
     align-self: flex-end;
-    box-shadow: -15px 5px 50px;
-    font-size: 24px;
+        box-shadow: -5px 5px 50px;
+        font-size: 24px;
 }
 
 footer p {
