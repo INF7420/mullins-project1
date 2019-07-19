@@ -238,12 +238,12 @@ footer {
     color: black;
     align-self: flex-end;
         box-shadow: -5px 5px 50px;
-        font-size: 24px;
+        font-size: 2vw;
 }
 
 footer p {
     padding: 10px 10px 10px 10px;
-    font-size: 24px;
+    font-size: 2em;
     background-color: whitesmoke;
 }
 
@@ -264,5 +264,5 @@ footer img:hover {
     padding: 30px;
     margin: 10px 10px 10px 10px;
     align-self: flex-end;
-    font-size: 24px;
+    font-size: 1vw;
 }
