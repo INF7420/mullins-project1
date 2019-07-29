@@ -34,15 +34,15 @@
   <main>
     <div id="form1">
       <h1>Want to share an interesting article or wax poetic about NPR? Tell me more here!</h1>
-      <form  method="POST" action="https://formspree.io/mullinskatielynn@gmail.com" target="_top">
+      <form  method="POST" action="https://formspree.io/mullinskatielynn@gmail.com" class="validate">
         <div>
-          <label for="name">Your name:</label><input type="text" id="name" name="contact name">
+          <label for="name">Name:</label><input type="text" id="name" name="contact name">
         </div>
         <div>
-          <label for="email">Your e-mail address:</label><input type="text" id="email" name="email">
+          <label for="email">E-mail address:</label><input type="text" id="email" name="email" required>
         </div>
         <div>
-          <label for="mesg">Your message:</label><textarea id="mesg" name="mesg"></textarea>
+          <label for="mesg">Message:</label><textarea id="mesg" name="mesg" required></textarea>
         </div>
         <div class="button"> <button type="submit">Submit!</button></div>
        
