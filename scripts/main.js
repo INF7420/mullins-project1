@@ -46,7 +46,6 @@ var hasError = function (field) {
 		return 'Please match the requested format.';
 
 	}
-
 	// If number input isn't a number
 	if (validity.badInput) return 'Please enter a number.';
 
