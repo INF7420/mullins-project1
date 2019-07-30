@@ -41,7 +41,7 @@
   }
 
 html {
-    display: -webkit- flex;  
+    display: -webkit-flex;  
     display: flex;
 }
 
@@ -56,7 +56,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: whitesmoke;
     width: 90%;
-    float: center;
+    float: none;
     display: flex;
     flex-wrap: wrap;
 }
@@ -148,7 +148,7 @@ main {
     display: flex;
     flex: 80%;
     flex-direction: row;
-    box-shadow: 5px -5px 20px;
+    box-shadow: 5px 5px 5px;
 }
 
 p {
@@ -162,7 +162,7 @@ p {
 #form-1 {
     width: 65%;
     padding: 12px;
-    border: 10px solid whitesmoke;
+    border: 5px solid whitesmoke;
     border-radius: 1px;
     box-sizing: border-box;
     margin-top: 20px;
@@ -181,6 +181,32 @@ text {
     background-color: whitesmoke;
     resize: none;
   }
+
+  .error-message{
+    color:#FFA500;
+    font-size: 12pt;
+}
+
+.error-border{
+    border-color: #FFA500 ;
+}
+
+#form-submit{
+    width: 15%;
+        margin: 15px;
+        background: whitesmoke;
+        color: black;
+        font-weight: 25pc;
+        border-radius: 15px;
+        font-size: 16pt;
+  }
+  
+  #form-submit:hover{
+      cursor: pointer;
+      background: black;
+      color: white;
+  }
+  
 
  /*portfolio page edits */
 
@@ -204,7 +230,7 @@ text {
 /*Contact me page - form, validation, and such*/
 
 input[type=submit]  {
-    background-color: whitesmoke;
+    background-color: #FF9C8C;
     color: black;
     font-size: 16px;
     padding: 10px 20px;
@@ -216,7 +242,8 @@ input[type=submit]  {
   }
 
 input[type=submit]:hover {
-    background-color: pink;
+    background-color: black;
+    color: white;
   }
 
 .button {
@@ -228,16 +255,13 @@ input[type=submit]:hover {
   margin: 0 auto;
 }
 
-.button:hover {
-}
-
 footer {
     padding: 1rem;
     background-color: whitesmoke;
-    width: 100%;
+    width: 50%;
     color: black;
     align-self: flex-end;
-        box-shadow: -5px 5px 50px;
+        box-shadow: -5px 5px 5px;
         font-size: 2vw;
 }
 
@@ -258,11 +282,11 @@ footer img:hover {
     transform: scale(1.25, 1.25);
     transform-origin: left;
 }
-}
+
 .linkedin {
     background-color: whitesmoke;
     padding: 30px;
     margin: 10px 10px 10px 10px;
-    align-self: flex-end;
+    align-self: right;
     font-size: 16px;
 }
