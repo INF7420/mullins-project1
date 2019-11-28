@@ -9,13 +9,13 @@ window.addEventListener('load', function(){
         } else {
             item.style.border = "solid red 2px";
             item.style.boxShadow = "10 10 4px orange";
-            
+
         }
       })
     }
     textElements.forEach(listen);
 
- 
+
 
     let emailInput = document.getElementById('form-email');
     emailInput.addEventListener('invalid', ()=>{
