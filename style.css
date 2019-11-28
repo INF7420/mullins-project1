@@ -2,12 +2,12 @@
 @media only screen and (max-width: 600px) {
     html {
         font-size: 16px;
-    } 
+    }
     .ul {
         font-size: 16px;
             }
 }
-  
+
                                              /* Small devices (portrait tablets and large phones, 600px and up) */
                                                           @media only screen and (min-width: 600px) {
                                                                html {
@@ -15,7 +15,7 @@
                                                                  }  .ul {
                                                                   font-size: 16px;
                                                                     } }
-  
+
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
     html {
@@ -24,24 +24,24 @@
     .ul {
         font-size: 16px;
             }
-  } 
-  
+  }
+
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
     .ul {
         font-size: 16px;
             }
-  } 
-  
+  }
+
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
     .ul {
         font-size: 16px;
-            } 
+            }
   }
 
 html {
-    display: -webkit-flex;  
+    display: -webkit-flex;
     display: flex;
 }
 
@@ -53,7 +53,7 @@ head {
 
 body {
     color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, sans-serif;
     background-color: whitesmoke;
     width: 90%;
     float: none;
@@ -67,7 +67,7 @@ h1 h2 h3 {
 
 /*header- hero image*/
 
-.img-border { 
+.img-border {
     border: 2px solid black;
     border-radius: 5px;
  }
@@ -114,7 +114,7 @@ ul {
     padding: 5px;
     margin: 5px;
     background-color: whitesmoke
-    font-family:'Courier New', Courier, monospace;
+    font-family:Verdana, Geneva, sans-serif;
     border-radius: 5px;
 }
 
@@ -129,7 +129,7 @@ li a:hover {
     background-color: #FF9C8C;
     color: black;
     font-display: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, sans-serif;
     font-size: 16px;
     font-kerning: 16px;
     text-align: center;
@@ -200,13 +200,13 @@ text {
         border-radius: 15px;
         font-size: 16pt;
   }
-  
+
   #form-submit:hover{
       cursor: pointer;
       background: black;
       color: white;
   }
-  
+
 
  /*portfolio page edits */
 
@@ -222,7 +222,7 @@ text {
     padding: 5px;
     margin: 5px;
     background-color: whitesmoke;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, sans-serif;
 }
 
 
